@@ -1,0 +1,25 @@
+# Secrets
+.env
+*.env.local
+.gmail-mcp-oauth.json
+
+# Local SQLite token store (will live in $HOME, but ignore here too just in case)
+*.db
+.gmail-mcp-tokens.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.python-version
+
+# uv
+uv.lock
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
