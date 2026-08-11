@@ -28,9 +28,12 @@ from scopes import ALL_SCOPES
 
 OAUTH_CREDENTIALS = Path(__file__).resolve().parent / ".gmail-mcp-oauth.json"
 
-# In-memory map of  state -> email  for the web OAuth flow.
+# In-memory map of  state -> {email, code_verifier}  for the web OAuth flow.
 # Entries are consumed on callback. No expiry needed for a personal gateway.
-_pending_auth: dict[str, str] = {}
+# code_verifier is required because google-auth-oauthlib enables PKCE by default:
+# the verifier lives on the Flow object that generated the authorization URL,
+# so we must carry it to the callback where we build a second Flow.
+_pending_auth: dict[str, dict] = {}
 
 
 def get_oauth_config() -> dict:
@@ -104,13 +107,13 @@ def get_auth_url(email: str, redirect_uri: str) -> str:
     config = get_oauth_config()
     flow = Flow.from_client_config(config, ALL_SCOPES, redirect_uri=redirect_uri)
     state = secrets.token_urlsafe(16)
-    _pending_auth[state] = email
     auth_url, _ = flow.authorization_url(
         prompt="consent",
         access_type="offline",
         login_hint=email,
         state=state,
     )
+    _pending_auth[state] = {"email": email, "code_verifier": flow.code_verifier}
     return auth_url
 
 
@@ -124,12 +127,14 @@ def exchange_code(code: str, state: str, redirect_uri: str) -> str:
     Raises:
         ValueError: If the state is unknown or already consumed.
     """
-    email = _pending_auth.pop(state, None)
-    if email is None:
+    entry = _pending_auth.pop(state, None)
+    if entry is None:
         raise ValueError("Unknown or already-used OAuth state. Try /auth/start again.")
+    email = entry["email"]
 
     config = get_oauth_config()
     flow = Flow.from_client_config(config, ALL_SCOPES, redirect_uri=redirect_uri)
+    flow.code_verifier = entry["code_verifier"]
     flow.fetch_token(code=code)
     _persist(email, flow.credentials)
     return email

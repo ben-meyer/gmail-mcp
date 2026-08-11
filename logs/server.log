@@ -1,0 +1,3374 @@
+INFO:     Started server process [86516]
+INFO:     Waiting for application startup.
+StreamableHTTP session manager started
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+⚠️  GATEWAY_API_KEY not set — running without auth (dev mode only)
+🚀 MCP endpoint  → http://0.0.0.0:8000/mcp
+🩺 Health check  → http://0.0.0.0:8000/health
+🔑 Add account   → http://0.0.0.0:8000/auth/start?email=you@gmail.com
+INFO:     127.0.0.1:57315 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57317 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57349 - "GET /auth/start?email=ben.meyer142@gmail.com HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57350 - "GET /auth/callback?state=8vS9st4n3IBRCgCgXVHInA&iss=https://accounts.google.com&code=4/0AXEQxICuNaGAX4LGPK9xESupe1nb32uoASbJDLoUQI9hMZiqdGW8j5a9y3DRgN9TwCdfTg&scope=https://www.googleapis.com/auth/gmail.readonly%20https://www.googleapis.com/auth/gmail.send%20https://www.googleapis.com/auth/gmail.labels%20https://www.googleapis.com/auth/gmail.modify%20https://www.googleapis.com/auth/calendar.events%20https://www.googleapis.com/auth/calendar HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57359 - "GET /health HTTP/1.1" 200 OK
+Created new transport with session ID: e70c4d9f2c8d4994b58acebd0e5e62c2
+INFO:     127.0.0.1:57360 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57361 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57360 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57362 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57361 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57362 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57361 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57362 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57361 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57362 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57361 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57362 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57361 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57362 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57361 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57362 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57361 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57362 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57361 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57362 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57361 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57362 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57546 - "GET /health HTTP/1.1" 200 OK
+Created new transport with session ID: 1e31f66d1ecd4103ac23bbddffadf2e9
+INFO:     127.0.0.1:57547 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57548 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57547 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57549 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57548 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57549 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57548 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57549 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57548 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57549 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57548 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57549 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57548 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57549 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57548 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57549 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57548 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57549 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57548 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57549 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57548 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57549 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57611 - "GET /health HTTP/1.1" 200 OK
+Created new transport with session ID: dfbf8b162f1240e4ad4d70c41d96ccef
+INFO:     127.0.0.1:57612 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57613 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57612 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57614 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57613 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57614 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57613 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57614 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57613 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57614 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57613 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57614 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57613 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57614 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57613 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57614 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57613 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57614 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57613 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57614 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57613 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57614 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57649 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57716 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57719 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57716 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57727 - "GET /health HTTP/1.1" 200 OK
+Created new transport with session ID: 866cee0794a04d29957a22f2070ed24b
+INFO:     127.0.0.1:57728 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57729 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57728 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57730 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57729 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57730 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57759 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57767 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57770 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57767 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57770 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57767 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57784 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57787 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57784 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57787 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57784 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57800 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57802 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57809 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57812 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57809 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57823 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57827 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57823 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57835 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57838 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57835 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57838 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57849 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57852 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57849 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57866 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57869 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57866 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57869 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57879 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57882 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57879 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57882 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57893 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57896 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57893 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57896 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57893 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57910 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57913 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57910 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57913 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57928 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57931 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57928 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57941 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57944 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57941 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57952 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57955 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57952 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57966 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57969 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57966 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57978 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57981 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57978 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57981 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:57978 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58006 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58009 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58006 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58009 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58019 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58022 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58019 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58022 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58034 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58037 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58034 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58044 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58047 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58044 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58055 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58058 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58055 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58070 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58073 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58070 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58073 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58086 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58089 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58086 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58098 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58101 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58098 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58109 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58112 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58109 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58125 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58128 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58125 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58135 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58138 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58135 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58151 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58154 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58151 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58166 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58169 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58166 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58179 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58182 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58179 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58189 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58193 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58189 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58201 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58205 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58201 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58205 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58201 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58226 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58230 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58226 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58238 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58241 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58238 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58249 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58252 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58249 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58252 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58261 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58264 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58261 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58272 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58275 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58272 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58283 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58286 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58283 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58293 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58296 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58293 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58304 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58307 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58304 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58319 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58322 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58319 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58322 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58341 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58344 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58341 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58352 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58355 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58352 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58355 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58352 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58368 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58371 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58368 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58379 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58382 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58379 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58391 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58394 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58391 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58394 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58404 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58407 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58404 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58415 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58418 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58415 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58429 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58432 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58429 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58440 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58443 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58440 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58451 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58454 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58451 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58454 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58465 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58468 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58465 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58477 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58480 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58477 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58489 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58492 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58489 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58492 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58509 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58512 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58509 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58512 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58527 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58534 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58527 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58546 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58549 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58546 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58559 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58562 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58559 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58571 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58574 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58571 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58574 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58587 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58590 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58587 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58590 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58602 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58605 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58602 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58613 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58616 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58613 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58624 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58627 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58624 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58627 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58637 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58640 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58637 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58640 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58637 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58651 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58654 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58651 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58664 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58667 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58664 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58675 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58678 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58675 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58686 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58689 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58686 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58697 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58700 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58697 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58709 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58712 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58709 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58721 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58724 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58721 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58732 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58735 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58732 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58743 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58746 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58743 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58765 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58768 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58765 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58768 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58778 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58781 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58778 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58789 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58792 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58789 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58801 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58804 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58801 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58814 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58817 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58814 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58817 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58829 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58832 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58829 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58840 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58843 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58840 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58851 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58854 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58851 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58862 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58868 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58871 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58868 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58881 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58884 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58881 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58893 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58896 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58893 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58904 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58907 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58904 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58907 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58924 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58927 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58924 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58927 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58924 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58945 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58948 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58945 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58960 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58963 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58960 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58971 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58974 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58971 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58984 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58987 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58984 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58995 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58998 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:58995 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59006 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59009 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59006 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59017 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59020 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59017 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59020 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59032 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59035 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59032 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59035 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59045 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59048 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59045 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59048 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59059 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59062 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59059 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59073 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59076 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59073 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59084 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59087 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59084 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59095 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59098 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:59218 - "GET /health HTTP/1.1" 200 OK
+Created new transport with session ID: 37d347526b3f481286d3ebdd4b42e860
+INFO:     127.0.0.1:59219 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59220 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:59219 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59221 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:59220 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:60984 - "GET /health HTTP/1.1" 200 OK
+Created new transport with session ID: 23ab2447c35041bfaf58599e410dc71f
+INFO:     127.0.0.1:60985 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60986 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:60985 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60987 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:60986 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:60987 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61018 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61101 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:61105 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:61101 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61105 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61126 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:61130 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:61126 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61130 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61148 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:61166 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61148 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61458 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61516 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:61521 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:61516 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:61521 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61516 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61584 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:61588 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:61584 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61588 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61633 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:61637 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61633 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61650 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:61654 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:61650 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61654 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61728 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:61732 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61728 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61815 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:61823 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61815 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61999 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62003 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:61999 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62041 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62047 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62041 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62095 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62099 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62095 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62115 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62119 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62115 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62130 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62134 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62130 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62149 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62153 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62149 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62276 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62281 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62276 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62291 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62295 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62291 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62312 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62316 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62312 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62361 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62370 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62361 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62400 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62404 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62400 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62422 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62426 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62422 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62540 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62544 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62540 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62557 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62562 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62557 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62591 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62595 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62591 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62657 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62661 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62657 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62673 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62678 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62673 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62698 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62704 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62698 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62704 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62730 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62734 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62730 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62829 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62841 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62845 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62841 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62902 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62910 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62902 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62920 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62924 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62920 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62969 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:62974 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:62969 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63021 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63025 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63021 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63062 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63066 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63062 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63076 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63081 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63076 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63115 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63119 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63115 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63133 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63138 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63133 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63138 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63158 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63162 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63158 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63180 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63184 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63180 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63204 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63208 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63204 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63208 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63230 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63234 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63230 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63234 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63279 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63283 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63279 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63319 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63330 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63319 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63330 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63354 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63358 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63354 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63528 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63533 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63528 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63558 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63571 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63558 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63720 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63724 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63720 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63754 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63758 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63754 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63775 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63780 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63775 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63780 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63906 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63913 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63906 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:63996 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:63999 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:64000 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64119 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64134 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64138 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64134 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64148 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64153 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64148 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64166 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64179 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64183 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64179 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64193 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64201 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64205 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64201 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64218 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64222 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64218 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64238 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64242 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64238 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64264 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64322 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64264 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64333 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64350 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64354 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64350 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64388 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64395 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64388 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64410 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64414 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64410 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64414 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64452 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64456 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64452 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64470 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64474 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64470 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64474 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64491 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64495 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64491 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64509 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64513 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64509 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64523 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64527 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64523 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64543 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64547 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64543 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64547 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64563 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64567 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64563 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64615 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64623 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64615 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64623 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64660 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64664 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64660 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64679 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64683 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64679 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64698 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64704 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64698 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64717 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64721 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64717 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64731 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64736 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64731 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64759 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64764 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64759 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64778 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64782 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64778 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64800 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64805 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64800 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64805 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64800 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64824 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64828 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64824 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64838 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64842 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64838 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64853 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64857 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64853 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64874 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64879 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64874 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64879 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64874 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64901 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64905 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64901 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64905 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64947 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64951 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64947 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64961 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64965 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64961 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64980 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:64984 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:64980 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65001 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65005 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65001 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65005 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65020 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65024 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65020 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65024 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65045 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65049 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65045 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65063 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65067 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65063 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65079 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65083 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65079 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65083 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65110 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65114 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65110 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65114 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65135 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65139 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65135 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65139 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65154 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65159 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65154 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65174 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65178 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65261 - "GET /health HTTP/1.1" 200 OK
+Created new transport with session ID: 5092bdb7c65a4d2a8e795d5e54c5cab9
+INFO:     127.0.0.1:65262 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65263 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:65262 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65264 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65263 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65264 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65293 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65349 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65355 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65349 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65355 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65369 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65373 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65369 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65373 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65390 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65394 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65390 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65394 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65408 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65412 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65408 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65423 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65427 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65423 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65427 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65441 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65445 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65441 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65445 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65441 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65466 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65470 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65466 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65470 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65466 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65492 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65497 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65492 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65497 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65523 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65527 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:65523 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:65527 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49160 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49164 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49160 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49164 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49160 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49186 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49190 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49186 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49190 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49206 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49210 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49206 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49220 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49224 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49220 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49241 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49245 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49241 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49258 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49262 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49258 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49262 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49281 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49285 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49281 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49298 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49302 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49298 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49319 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49323 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49319 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49335 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49339 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49335 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49353 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49357 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49353 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49357 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49376 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49380 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49376 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49380 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49399 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49403 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49399 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49416 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49420 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49416 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49431 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49435 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49431 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49445 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49449 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49445 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49459 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49463 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49459 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49475 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49479 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49475 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49493 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49497 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49493 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49497 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49514 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49519 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49514 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49533 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49537 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49533 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49537 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49533 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49558 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49563 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49558 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49576 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49580 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49576 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49580 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49594 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49598 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49594 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49598 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49617 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49621 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49617 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49637 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49641 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49637 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49641 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49695 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+file_cache is only supported with oauth2client<4.0.0
+INFO:     127.0.0.1:49700 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
+INFO:     127.0.0.1:49695 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+file_cache is only supported with oauth2client<4.0.0
+Refreshing credentials due to a 401 response. Attempt 1/2.
