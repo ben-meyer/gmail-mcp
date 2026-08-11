@@ -1,0 +1,34 @@
+# ── Gmail + Calendar MCP Gateway — Docker Compose ────────────────────────────
+# Usage:
+#   1. cp .env.example .env  and fill in GATEWAY_API_KEY
+#   2. Place .gmail-mcp-oauth.json in this directory
+#   3. docker compose up -d
+#   4. Open http://localhost:8000/auth/start?email=you@gmail.com to authenticate
+#
+# On Raspberry Pi: same steps, just run on the Pi. Tailscale handles access.
+
+services:
+  gmail-mcp:
+    build: .
+    image: gmail-mcp:latest
+    container_name: gmail-mcp
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8000}:8000"
+    volumes:
+      # Persistent SQLite database — tokens survive container restarts
+      - ./data:/data
+      # OAuth client credentials (read-only inside container)
+      - ./.gmail-mcp-oauth.json:/app/.gmail-mcp-oauth.json:ro
+    environment:
+      GATEWAY_API_KEY: ${GATEWAY_API_KEY}
+      PORT: 8000
+      HOST: "0.0.0.0"
+      DB_PATH: /data/tokens.db
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s

@@ -1,0 +1,44 @@
+# ── systemd service — run directly on a Raspberry Pi (no Docker) ─────────────
+#
+# Install:
+#   sudo cp deploy/gmail-mcp.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now gmail-mcp
+#
+# The service reads environment from /etc/gmail-mcp.env (create from .env.example).
+# Logs: journalctl -u gmail-mcp -f
+
+[Unit]
+Description=Gmail + Calendar MCP Gateway
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+
+# Project lives in /home/pi/gmail-mcp — adjust if different
+WorkingDirectory=/home/pi/gmail-mcp
+
+# Environment file keeps secrets out of the unit file
+EnvironmentFile=/etc/gmail-mcp.env
+
+# Use the project's virtual environment
+ExecStart=/home/pi/gmail-mcp/.venv/bin/python server.py
+
+Restart=on-failure
+RestartSec=5s
+
+# Resource limits — sensible for a Pi
+MemoryMax=256M
+CPUQuota=50%
+
+# Security hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/home/pi/gmail-mcp
+
+[Install]
+WantedBy=multi-user.target

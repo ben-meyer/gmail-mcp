@@ -22,7 +22,7 @@ def search_messages(creds: Credentials, query: str,
                     max_results: int = 10) -> list[dict]:
     """Search for emails matching a Gmail query string.
 
-    Two-step: list returns IDs only, then we fetch metadata for each.
+    Two-step: list returns IDs only, then we batch-fetch metadata (100/request).
     """
     service = get_service(creds)
     results = service.users().messages().list(
@@ -30,29 +30,73 @@ def search_messages(creds: Credentials, query: str,
     ).execute()
 
     messages = results.get("messages", [])
-    summaries = []
-    for msg in messages:
-        detail = service.users().messages().get(
-            userId="me",
-            id=msg["id"],
-            format="metadata",
-            metadataHeaders=["From", "To", "Subject", "Date"],
-        ).execute()
+    if not messages:
+        return []
 
+    summaries: list[dict | None] = [None] * len(messages)
+    failed_indices: list[int] = []
+
+    def _callback(request_id: str, response, exception) -> None:
+        idx = int(request_id)
+        if exception or response is None:
+            failed_indices.append(idx)
+            return
         headers = {
             h["name"]: h["value"]
-            for h in detail.get("payload", {}).get("headers", [])
+            for h in response.get("payload", {}).get("headers", [])
         }
-        summaries.append({
-            "id": msg["id"],
-            "thread_id": msg.get("threadId"),
+        summaries[idx] = {
+            "id": response["id"],
+            "thread_id": response.get("threadId"),
             "subject": headers.get("Subject", "(no subject)"),
             "from": headers.get("From", ""),
             "to": headers.get("To", ""),
             "date": headers.get("Date", ""),
-            "snippet": detail.get("snippet", "")[:100],
-        })
-    return summaries
+            "snippet": response.get("snippet", "")[:100],
+        }
+
+    # Gmail batch limit is 100 requests per batch
+    _BATCH_LIMIT = 100
+    for start in range(0, len(messages), _BATCH_LIMIT):
+        batch = service.new_batch_http_request(callback=_callback)
+        for i, msg in enumerate(messages[start:start + _BATCH_LIMIT]):
+            batch.add(
+                service.users().messages().get(
+                    userId="me",
+                    id=msg["id"],
+                    format="metadata",
+                    metadataHeaders=["From", "To", "Subject", "Date"],
+                ),
+                request_id=str(start + i),
+            )
+        batch.execute()
+
+    # Retry any batch failures individually
+    for idx in failed_indices:
+        try:
+            detail = service.users().messages().get(
+                userId="me",
+                id=messages[idx]["id"],
+                format="metadata",
+                metadataHeaders=["From", "To", "Subject", "Date"],
+            ).execute()
+            headers = {
+                h["name"]: h["value"]
+                for h in detail.get("payload", {}).get("headers", [])
+            }
+            summaries[idx] = {
+                "id": detail["id"],
+                "thread_id": detail.get("threadId"),
+                "subject": headers.get("Subject", "(no subject)"),
+                "from": headers.get("From", ""),
+                "to": headers.get("To", ""),
+                "date": headers.get("Date", ""),
+                "snippet": detail.get("snippet", "")[:100],
+            }
+        except Exception:
+            pass  # message genuinely inaccessible, skip it
+
+    return [s for s in summaries if s is not None]
 
 
 def _extract_body(payload: dict) -> str:
