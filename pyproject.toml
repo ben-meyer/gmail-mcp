@@ -4,7 +4,7 @@ version = "0.2.0"
 description = "Personal Gmail + Calendar MCP gateway — HTTP, multi-account, Raspberry Pi ready"
 requires-python = ">=3.10"
 dependencies = [
-    "mcp>=1.2.0",
+    "mcp>=1.2.0,<2",
     "google-api-python-client>=2.0.0",
     "google-auth-httplib2>=0.1.0",
     "google-auth-oauthlib>=1.0.0",

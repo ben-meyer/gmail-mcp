@@ -16,7 +16,7 @@ import os
 import json
 import secrets
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Optional
 
 from google.auth.transport.requests import Request
@@ -166,6 +166,14 @@ def get_credentials(email: str) -> Optional[Credentials]:
     # Support both "installed" and "web" config shapes.
     client_cfg = config.get("installed") or config.get("web", {})
 
+    # expiry MUST be passed or creds.expired is always False and the refresh
+    # branch below never fires — stale access tokens then 401 until re-auth.
+    # Credentials.expiry must be naive UTC; strip tzinfo defensively (the DB
+    # round-trips ISO strings, which could carry an offset).
+    expiry = tokens["expiry"]
+    if expiry is not None and expiry.tzinfo is not None:
+        expiry = expiry.astimezone(timezone.utc).replace(tzinfo=None)
+
     creds = Credentials(
         token=tokens["access_token"],
         refresh_token=tokens["refresh_token"],
@@ -173,6 +181,7 @@ def get_credentials(email: str) -> Optional[Credentials]:
         client_id=client_cfg["client_id"],
         client_secret=client_cfg["client_secret"],
         scopes=tokens["scopes"] or ALL_SCOPES,
+        expiry=expiry,
     )
 
     if creds.expired and creds.refresh_token:

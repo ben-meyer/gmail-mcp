@@ -397,6 +397,53 @@ def list_events(
 
 
 @mcp.tool()
+def find_free_slots(
+    account: str,
+    duration_minutes: int = 30,
+    earliest: str = "",
+    latest: str = "",
+    calendar_ids: str = "",
+) -> str:
+    """Find free meeting slots across ALL of an account's calendars in one
+    free/busy call — including calendars shared at free/busy-only (e.g. a work
+    calendar), which list_events cannot see. Busy blocks from every calendar
+    are merged, working hours (09:00-18:00 Europe/London) and 15-minute
+    buffers are honoured, and slot arithmetic is done in code, not by the model.
+
+    Args:
+        account: Google address
+        duration_minutes: Required slot length (default 30)
+        earliest: Optional ISO 8601 lower bound (default: now)
+        latest: Optional ISO 8601 upper bound (default: earliest + 7 days)
+        calendar_ids: Optional comma-separated calendar IDs to check. Default:
+            every calendar on the account (recommended — that is the point).
+    """
+    creds = auth.get_credentials(account)
+    if not creds:
+        return f"Account {account} not authenticated."
+    try:
+        ids = (
+            [c.strip() for c in calendar_ids.split(",") if c.strip()]
+            if calendar_ids
+            else [c["id"] for c in calendar_client.list_calendars(creds)]
+        )
+        if not ids:
+            return "No calendars found for this account."
+        slots = calendar_client.find_free_slots(
+            creds, ids, duration_minutes=duration_minutes,
+            earliest=earliest or None, latest=latest or None,
+        )
+        if not slots:
+            return "No free slots found in the requested window."
+        result = f"Free slots ({duration_minutes} min, next {len(slots)}):\n\n"
+        for s in slots:
+            result += f"- {s['start']} → {s['end']}\n"
+        return result
+    except Exception as e:
+        return f"Error finding free slots: {e}"
+
+
+@mcp.tool()
 def get_event(account: str, event_id: str, calendar_id: str = "primary") -> str:
     """Get full details of a calendar event.
 
@@ -440,18 +487,25 @@ def create_event(
     description: str = "",
     location: str = "",
     attendee_emails: str = "",
+    timezone_name: str = "Europe/London",
+    send_invites: bool = False,
 ) -> str:
-    """Create a new calendar event.
+    """Create a new calendar event. NOT sent to attendees unless send_invites
+    is explicitly true — created events stay local until then.
 
     Args:
         account: Google address
         summary: Event title
-        start_datetime: ISO 8601 UTC, e.g. "2024-06-15T14:00:00Z"
-        end_datetime: ISO 8601 UTC, e.g. "2024-06-15T15:00:00Z"
+        start_datetime: ISO 8601, e.g. "2024-06-15T14:00:00" (local, resolved
+            against timezone_name) or "2024-06-15T14:00:00Z" (explicit UTC)
+        end_datetime: Same format as start_datetime
         calendar_id: Calendar to create in (default "primary")
         description: Event description (optional)
         location: Location or video link (optional)
         attendee_emails: Comma-separated email addresses to invite (optional)
+        timezone_name: IANA timezone for the event (default Europe/London)
+        send_invites: Set true ONLY when Ben has confirmed the event should
+            email its attendees. Default false.
     """
     creds = auth.get_credentials(account)
     if not creds:
@@ -465,8 +519,10 @@ def create_event(
         result = calendar_client.create_event(
             creds, summary, start_datetime, end_datetime,
             calendar_id, description, location, attendees,
+            timezone_name=timezone_name, send_invites=send_invites,
         )
-        return f"Event created.\nID:   {result['id']}\nLink: {result['link']}"
+        gate = "with invites sent" if (attendees and send_invites) else "WITHOUT invites (local only)"
+        return f"Event created ({gate}).\nID:   {result['id']}\nLink: {result['link']}"
     except Exception as e:
         return f"Error creating event: {e}"
 
@@ -481,8 +537,11 @@ def update_event(
     location: str = "",
     start_datetime: str = "",
     end_datetime: str = "",
+    timezone_name: str = "Europe/London",
+    send_invites: bool = False,
 ) -> str:
-    """Update a calendar event. Only fields you supply are changed.
+    """Update a calendar event. Only fields you supply are changed. Attendees
+    are NOT emailed about the change unless send_invites is explicitly true.
 
     Args:
         account: Google address
@@ -491,8 +550,11 @@ def update_event(
         summary: New title (optional)
         description: New description (optional)
         location: New location (optional)
-        start_datetime: New start in ISO 8601 UTC (optional)
-        end_datetime: New end in ISO 8601 UTC (optional)
+        start_datetime: New start, ISO 8601 (optional; resolved against timezone_name)
+        end_datetime: New end, ISO 8601 (optional)
+        timezone_name: IANA timezone for supplied datetimes (default Europe/London)
+        send_invites: Set true ONLY when Ben has confirmed the change should
+            email its attendees. Default false.
     """
     creds = auth.get_credentials(account)
     if not creds:
@@ -506,31 +568,22 @@ def update_event(
         if end_datetime:   kwargs["end_dt"] = end_datetime
         if not kwargs:
             return "No fields to update were provided."
-        calendar_client.update_event(creds, event_id, calendar_id, **kwargs)
+        calendar_client.update_event(
+            creds, event_id, calendar_id,
+            timezone_name=timezone_name, send_invites=send_invites, **kwargs,
+        )
         return f"Event {event_id} updated."
     except Exception as e:
         return f"Error updating event: {e}"
 
 
-@mcp.tool()
-def delete_event(
-    account: str, event_id: str, calendar_id: str = "primary"
-) -> str:
-    """Delete a calendar event.
-
-    Args:
-        account: Google address
-        event_id: Event ID to delete
-        calendar_id: Calendar ID (default "primary")
-    """
-    creds = auth.get_credentials(account)
-    if not creds:
-        return f"Account {account} not authenticated."
-    try:
-        calendar_client.delete_event(creds, event_id, calendar_id)
-        return f"Event {event_id} deleted."
-    except Exception as e:
-        return f"Error deleting event: {e}"
+# delete_event is deliberately NOT exposed as an MCP tool during the trial:
+# a model mistake here emails cancellation notices to other people's inboxes
+# (it sent unconditionally before the send-gate fix). The underlying
+# calendar_client.delete_event() now defaults to sendUpdates="none" and
+# remains available for scripted/CLI use once trust is earned — re-add the
+# tool wrapper then, alongside send_email, per the staged rollout in the
+# setup guide (Part 6d/6e).
 
 
 # ─────────────────────────────────────────────────────────────────────────────
