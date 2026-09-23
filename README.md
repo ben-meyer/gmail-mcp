@@ -12,10 +12,11 @@ any agent  ──Bearer token──▶  Pi (Tailscale)  ──Google OAuth──
 
 ## Features
 
-- **15 MCP tools** — Gmail search/read/send/label/archive + Calendar list/get/create/update/delete
+- **19 MCP tools** — Gmail search/read/send/label/archive + Calendar list/get/create/update/delete, recurring and all-day events, and multi-calendar free/busy slot finding
 - **Multi-account** — authenticate as many Google accounts as you like; each tool takes an `account` argument
 - **Web OAuth** — add accounts by visiting `/auth/start?email=...` in a browser; no terminal needed after setup
 - **API key auth** — all `/mcp` traffic requires a Bearer token; `/health` and `/auth/*` are intentionally public
+- **Send-gate by default** — events are created, updated and deleted WITHOUT emailing attendees unless `send_invites`/`notify_attendees` is explicitly true; a model mistake stays local
 - **Docker or systemd** — both deployment modes documented below
 
 ## Project layout
@@ -221,6 +222,8 @@ current MCP transport standard) can point at `https://your-pi.../mcp` with
 | `read_email(account, message_id)` | Full email body + headers |
 | `send_email(account, to, subject, body, cc, bcc)` | Send an email |
 | `get_labels(account)` | List all labels / folders |
+| `label_email(account, message_id, label_name)` | Apply a label to a message |
+| `get_or_create_label(account, label_name)` | Find or create a label, return its ID |
 | `archive_email(account, message_id)` | Remove from Inbox |
 | `mark_as_read(account, message_id)` | Remove UNREAD label |
 | `mark_as_unread(account, message_id)` | Add UNREAD label |
@@ -229,12 +232,37 @@ current MCP transport standard) can point at `https://your-pi.../mcp` with
 
 | Tool | Description |
 |---|---|
-| `list_calendars(account)` | List all calendars |
-| `list_events(account, days_ahead, calendar_id, max_results, query)` | Upcoming events |
+| `list_calendars(account)` | List all calendars (with access roles) |
+| `list_events(account, days_ahead, calendar_id, max_results, query)` | Upcoming events on one calendar |
 | `get_event(account, event_id, calendar_id)` | Full event details |
-| `create_event(account, summary, start_datetime, end_datetime, ...)` | Create event (ISO 8601 UTC) |
+| `create_event(account, summary, start_datetime, end_datetime, ...)` | Create a timed, all-day (`all_day`) and/or recurring (`recurrence`) event; `transparent` marks it free/busy-invisible |
 | `update_event(account, event_id, ...)` | Update fields on an existing event |
-| `delete_event(account, event_id, calendar_id)` | Delete an event |
+| `delete_event(account, event_id, calendar_id)` | Delete an event — the parent id of a recurring series removes every instance; no cancellation emails by default |
+| `find_free_slots(account, duration_minutes, earliest, latest, calendar_ids)` | Merge free/busy across ALL the account's calendars (incl. free/busy-only shares) and return candidate slots |
+
+## Design notes
+
+Worth knowing before you build on the calendar side:
+
+- **Organiser follows the token.** Google stamps an event's organiser from whichever
+  account's credentials created it — it is not a settable field. To get event X organised
+  by account Y, create it with `account=Y` (writing to Y's own calendar, or any calendar
+  Y has writer access to). The only API way to change an organiser afterwards is
+  `events.move`.
+- **Timezone.** Datetimes default to `Europe/London` (`timezone_name`); passing naive UTC
+  strings books events an hour out during BST.
+- **Send-gate on every mutation.** `create_event`/`update_event` take `send_invites`,
+  `delete_event` takes `notify_attendees` — all default false, so nothing is ever emailed
+  unless the caller asks for it explicitly.
+- **All-day events are exclusive-end.** `end_datetime` is the day AFTER the last day
+  (Google's convention). Recurring series take RFC5545 rules, e.g.
+  `recurrence="RRULE:FREQ=YEARLY"`; the start date anchors the series.
+- **Free/busy is the source of truth, not `list_events`.** `list_events` names one
+  calendar and cannot see free/busy-only shares at all; `find_free_slots` queries every
+  calendar and merges. An empty `list_events` next to "no free slots" is correct data,
+  not a bug.
+- **Recurring deletes.** Deleting the parent event removes the whole series; deleting an
+  instance id (`<parent>_YYYYMMDD`) cancels just that occurrence.
 
 ---
 

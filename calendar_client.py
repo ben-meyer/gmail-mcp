@@ -94,25 +94,41 @@ def create_event(
     attendees: list[str] | None = None,
     timezone_name: str = DEFAULT_TIMEZONE,
     send_invites: bool = False,
+    all_day: bool = False,
+    recurrence: list[str] | None = None,
+    transparency: str = "",
 ) -> dict:
     """Create a new event.
 
     Args:
         start_dt / end_dt: ISO 8601 strings — naive local times (resolved
             against timezone_name) or explicit offsets ("...Z"/"+01:00").
+            With all_day=True these are DATES (YYYY-MM-DD); end_dt is the
+            exclusive end date (the day AFTER the last day).
         timezone_name: IANA zone the datetimes live in. Defaults to
             Europe/London — NOT UTC, which silently booked an hour out in BST.
         attendees: List of email addresses to invite.
         send_invites: False (default) creates the event WITHOUT emailing
             attendees — a model mistake stays local until a human sends it.
             Only pass True deliberately.
+        all_day: Create an all-day event (start/end are dates, no timezone).
+        recurrence: Optional RFC5545 rules, e.g. ["RRULE:FREQ=YEARLY"].
+            Makes the event a recurring series; start_dt anchors the series.
+        transparency: "transparent" shows the day as free (birthdays,
+            reminders); "opaque" (default calendar behaviour) blocks busy.
     """
     service = get_service(creds)
-    body: dict = {
-        "summary": summary,
-        "start": {"dateTime": start_dt, "timeZone": timezone_name},
-        "end": {"dateTime": end_dt, "timeZone": timezone_name},
-    }
+    body: dict = {"summary": summary}
+    if all_day:
+        body["start"] = {"date": start_dt}
+        body["end"] = {"date": end_dt}
+    else:
+        body["start"] = {"dateTime": start_dt, "timeZone": timezone_name}
+        body["end"] = {"dateTime": end_dt, "timeZone": timezone_name}
+    if recurrence:
+        body["recurrence"] = list(recurrence)
+    if transparency:
+        body["transparency"] = transparency
     if description:
         body["description"] = description
     if location:

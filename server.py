@@ -489,6 +489,9 @@ def create_event(
     attendee_emails: str = "",
     timezone_name: str = "Europe/London",
     send_invites: bool = False,
+    all_day: bool = False,
+    recurrence: str = "",
+    transparent: bool = False,
 ) -> str:
     """Create a new calendar event. NOT sent to attendees unless send_invites
     is explicitly true — created events stay local until then.
@@ -497,8 +500,10 @@ def create_event(
         account: Google address
         summary: Event title
         start_datetime: ISO 8601, e.g. "2024-06-15T14:00:00" (local, resolved
-            against timezone_name) or "2024-06-15T14:00:00Z" (explicit UTC)
-        end_datetime: Same format as start_datetime
+            against timezone_name) or "2024-06-15T14:00:00Z" (explicit UTC).
+            With all_day=true this is a DATE (YYYY-MM-DD).
+        end_datetime: Same format as start_datetime. All-day events: the
+            EXCLUSIVE end date (the day AFTER the last day).
         calendar_id: Calendar to create in (default "primary")
         description: Event description (optional)
         location: Location or video link (optional)
@@ -506,6 +511,12 @@ def create_event(
         timezone_name: IANA timezone for the event (default Europe/London)
         send_invites: Set true ONLY when Ben has confirmed the event should
             email its attendees. Default false.
+        all_day: Create an all-day event (dates, no times).
+        recurrence: Optional RFC5545 rule(s) to make it a recurring series,
+            comma-separated, e.g. "RRULE:FREQ=YEARLY". start_datetime anchors
+            the series. Leave empty for a one-off event.
+        transparent: true marks the time as FREE (birthdays, reminders) so it
+            does not block free/busy. Default false (busy).
     """
     creds = auth.get_credentials(account)
     if not creds:
@@ -516,10 +527,17 @@ def create_event(
             if attendee_emails
             else []
         )
+        recurrence_rules = (
+            [r.strip() for r in recurrence.split(",") if r.strip()]
+            if recurrence
+            else None
+        )
         result = calendar_client.create_event(
             creds, summary, start_datetime, end_datetime,
             calendar_id, description, location, attendees,
             timezone_name=timezone_name, send_invites=send_invites,
+            all_day=all_day, recurrence=recurrence_rules,
+            transparency="transparent" if transparent else "",
         )
         gate = "with invites sent" if (attendees and send_invites) else "WITHOUT invites (local only)"
         return f"Event created ({gate}).\nID:   {result['id']}\nLink: {result['link']}"
@@ -577,13 +595,39 @@ def update_event(
         return f"Error updating event: {e}"
 
 
-# delete_event is deliberately NOT exposed as an MCP tool during the trial:
-# a model mistake here emails cancellation notices to other people's inboxes
-# (it sent unconditionally before the send-gate fix). The underlying
-# calendar_client.delete_event() now defaults to sendUpdates="none" and
-# remains available for scripted/CLI use once trust is earned — re-add the
-# tool wrapper then, alongside send_email, per the staged rollout in the
-# setup guide (Part 6d/6e).
+@mcp.tool()
+def delete_event(
+    account: str,
+    event_id: str,
+    calendar_id: str = "primary",
+    notify_attendees: bool = False,
+) -> str:
+    """Delete a calendar event. NO cancellation emails are sent unless
+    notify_attendees is explicitly true — a wrong deletion must not email
+    other people's inboxes.
+
+    For a recurring series, pass the PARENT event id: deleting it removes
+    every instance of the series. Deleting a single instance id (with a
+    _YYYYMMDD suffix) cancels just that occurrence.
+
+    Args:
+        account: Google address
+        event_id: Event ID to delete
+        calendar_id: Calendar ID (default "primary")
+        notify_attendees: Set true ONLY when Ben has confirmed attendees
+            should be emailed the cancellation. Default false.
+    """
+    creds = auth.get_credentials(account)
+    if not creds:
+        return f"Account {account} not authenticated."
+    try:
+        calendar_client.delete_event(
+            creds, event_id, calendar_id, notify_attendees=notify_attendees
+        )
+        gate = "with cancellation emails sent" if notify_attendees else "WITHOUT cancellation emails (local only)"
+        return f"Event {event_id} deleted ({gate})."
+    except Exception as e:
+        return f"Error deleting event: {e}"
 
 
 # ─────────────────────────────────────────────────────────────────────────────
